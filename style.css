@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(138, 58, 11);
+    color: white;
+}
+
+@font-face {
+    font-family: tung;
+    src: url(RubikBubbles-Regular.ttf);
+}
+
+h1 {
+    color: rgb(255, 255, 255);
+    font-size: xx-large;
+    text-align: center;
+    font-family: tung;
+}
