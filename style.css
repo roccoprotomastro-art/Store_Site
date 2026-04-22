@@ -8,9 +8,58 @@ body {
     src: url(RubikBubbles-Regular.ttf);
 }
 
+@font-face {
+    font-family: boldI;
+    src: url(Saira-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: boldI;
+    src: url(EduNSWACTCursive-VariableFont_wght.ttf);
+}
+
 h1 {
     color: rgb(255, 255, 255);
     font-size: xx-large;
     text-align: center;
     font-family: tung;
+    text-decoration: underline;
+    background-color: rgb(189, 116, 48);
+}
+
+p {
+    text-align: center;
+    font-size: xx-large;
+    font-family: boldI;
+}
+
+.tung {
+    text-align: center;
+}
+
+.steak {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    font-size: xx-large;
+    text-decoration: underline;
+    font-family: boldI;
+}
+
+h3 {
+    text-align: center;
+    font-size: 25px;
+    font-family: boldI;
+}
+
+.chicken {
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    font-size: 25px;
+    font-family: boldI;
 }
