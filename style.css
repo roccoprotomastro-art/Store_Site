@@ -9,7 +9,7 @@ body {
 }
 
 @font-face {
-    font-family: boldI;
+    font-family: boldT;
     src: url(Saira-VariableFont_wdth\,wght.ttf);
 }
 
@@ -62,4 +62,25 @@ h4 {
     text-align: center;
     font-size: 25px;
     font-family: boldI;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(189, 116, 48);
+    display: flex;
+    font-family: boldT;
+    justify-content: center;
+}
+
+ul li a {
+    display: block;
+    color: aliceblue;
+    padding: 10px 28px;
+    text-decoration: none;
+}
+
+ul li a:hover {
+background-color: rgb(221, 135, 65);
 }
